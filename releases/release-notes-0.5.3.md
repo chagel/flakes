@@ -22,6 +22,7 @@ AI-Native Browser for Focused Thinking
 - Prevent iframe navigations from affecting parent tab in popup proxies
 - Main actor isolation warnings in WebViewController
 - Test failures with singleton isolation and @Observable memory management
+- Update notification crash due to missing environment injection
 
 ## 📥 Installation
 
