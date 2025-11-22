@@ -17,12 +17,12 @@ AI-Native Browser for Focused Thinking
 - TestContext helper for easier dependency injection in tests
 
 ### Bug Fixes
-- EXC_BAD_ACCESS crash in WebViewController deinit
+- Fix EXC_BAD_ACCESS crash in WebViewController deinit
 - Allow typing '?' in Insert mode
 - Prevent iframe navigations from affecting parent tab in popup proxies
-- Main actor isolation warnings in WebViewController
-- Test failures with singleton isolation and @Observable memory management
-- Update notification crash due to missing environment injection
+- Fix main actor isolation warnings in WebViewController
+- Fix test failures with singleton isolation and @Observable memory management
+- Fix notification crash due to missing environment injection
 
 ## 📥 Installation
 
