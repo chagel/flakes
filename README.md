@@ -1,6 +1,9 @@
 # Flakes Browser
 
+
 A keyboard-first AI browser that thinks with you. Built native on macOS using WebKit for speed and efficiency.
+
+![Flakes Browser](cover.png)
 
 > **"A browser designed for thinking, not scrolling."**
 
