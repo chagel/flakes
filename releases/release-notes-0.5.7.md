@@ -31,7 +31,9 @@ AI-Native Browser for Focused Thinking
 2. Unzip and drag **Flakes.app** to your Applications folder
 3. Launch Flakes Browser
 
-**Note**: On first launch, macOS may show a security warning. Right-click the app and select "Open" to bypass Gatekeeper.
+**Note**: On first launch, macOS may show a security warning. To bypass:
+1. Right-click (or Control-click) the app and select **Open**
+2. Or run in Terminal: `xattr -cr /Applications/Flakes.app`
 
 ## 📋 Full Changelog
 
