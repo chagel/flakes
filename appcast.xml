@@ -6,6 +6,23 @@
     <description>Flakes Browser automatic updates</description>
     <language>en</language>
     <item>
+      <title>Version 0.5.9</title>
+      <pubDate>Thu, 27 Nov 2025 22:58:58 -0800</pubDate>
+      <sparkle:version>18</sparkle:version>
+      <sparkle:shortVersionString>0.5.9</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>What's New in v0.5.9</h2>
+        <ul><li>Fix Sparkle auto-update installation on sandboxed apps</li></ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/chagel/flakes/releases/download/v0.5.9/Flakes-v0.5.9-macOS.zip"
+        length="4547861"
+        type="application/octet-stream"
+        sparkle:edSignature="muErfCAoNUCJl/AWZvz5Z6m1FTA6GlOwsFsAFZOzyLh0RZuROdvSiozWLwNg5NmnA19P9sUpa6snqpC+VB0gCQ=="
+      />
+    </item>
+    <item>
       <title>Version 0.5.8</title>
       <pubDate>Thu, 27 Nov 2025 22:20:01 -0800</pubDate>
       <sparkle:version>15</sparkle:version>
