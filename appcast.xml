@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Flakes Browser Updates</title>
+    <link>https://chagel.github.io/flakes/appcast.xml</link>
+    <description>Flakes Browser automatic updates</description>
+    <language>en</language>
+    <item>
+      <title>Version 0.5.8</title>
+      <pubDate>Thu, 27 Nov 2025 22:20:01 -0800</pubDate>
+      <sparkle:version>15</sparkle:version>
+      <sparkle:shortVersionString>0.5.8</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>What's New in v0.5.8</h2>
+        <ul><li>Automatic app updates via Sparkle framework with one-click install</li><li>AI/Search toggle in command palette (Tab key to switch)</li><li>Tab sidebar always visible by default</li><li>Display AI provider and model name in command palette responses</li><li>Auto-switch to Insert mode now works correctly after page refresh</li><li>Toolbar items positioning on first launch for macOS 15+</li></ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/chagel/flakes/releases/download/v0.5.8/Flakes-v0.5.8-macOS.zip"
+        length="4547857"
+        type="application/octet-stream"
+        sparkle:edSignature="+tyU3vXY/kFHHKoK29/WfVXbDrG2/1ZTT7HhjoIzTOhFwwstM22gle8SZ+GbaBx67psARcBy7suUNLJ+R2RcAQ=="
+      />
+    </item>
+  </channel>
+</rss>
