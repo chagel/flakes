@@ -1,93 +1,72 @@
-# Flakes Browser
-
-
-A keyboard-first AI browser that thinks with you. Built native on macOS using WebKit for speed and efficiency.
+A fast, native, keyboard-first modern browser that thinks with you. Built on WebKit for speed and efficiency, enhanced with AI for smarter browsing.
 
 ![Flakes Browser](cover.png)
 
-> **"A browser designed for thinking, not scrolling."**
+**⚠️ Not a typical browser.** Flakes has no toolbar, no address bar, and minimal chrome. Everything is accessed via keyboard shortcuts and the command palette (⌘K). If you rely on clicking buttons to navigate, this browser is not for you. Built for hackers, writers, and power users who live in their keyboards.
 
-Flakes reimagines browsing from **Search → Click → Scroll → Forget** to **Intent → Read → Reflect → Act**.
+## Why Flakes?
 
-**Core Principles**:
-- **AI-Native**: AI understands context, not just queries
-- **Keyboard-First**: Mouse optional, keyboard is language
-- **Speed as Philosophy**: Native performance, instant response
-- **Your Flow is Sacred**: Extends focus, never steals it
+**Fast & Native**
+- Cold start < 500ms(with 10 tabs restore), tab switching < 50ms
+- Built on WebKit - lightweight, efficient, zero bloat
+- Native macOS integration with Apple Silicon optimization
+
+**Smart & Thoughtful**
+- AI understands your pages, not just your queries
+- Keyboard-first design - Vim-style navigation everywhere
+- Extends your focus, never interrupts it
+- Privacy-first with built-in ad & tracker blocking
+- AI features can be disabled for full control
+- Distraction-free interface
 
 ## What Works Today
 
-**The Basics**
-- Tab management with vim-style navigation
+**Core Browser**
+- Vim-style navigation (h/j/k/l, g/G, link hints)
 - Command palette (⌘K) for everything
-- Multiple profiles with complete isolation
-- Session persistence
-- Profile-isolated downloads
+- Multiple profiles with complete data isolation
+- Swipe gestures for navigation and zooming
 
-**For Hackers**
-- Multiple modes for maximum keyboard efficiency
-- Vim navigation mode (h/j/k/l, g/G, hint mode)
-- Developer console (⌘I) with full Console API
-- Built on WebKit (fast, light, native)
+**AI Features** (Frequently refined)
+- **Reflection** - AI analyzes pages and generates insights for content worth remembering
+- **Journal** - Daily browsing summaries with reading time, topics, and key insights
+- **AI Anser** - Command palette AI answers / toggle with search engines
 
-**Modern Web**
-- WebRTC for video calls
-- Fullscreen API support
-- Service Workers, IndexedDB
-- 96.9% compatibility with major sites
+**Privacy & Security**
+- **Shield** - Native ad and tracker blocking using transparent rules
+- Per-site camera, microphone, and notification permissions
+- Profile-isolated cookies and local storage
+- Sandboxed per macOS app security model
 
-## Why WebKit?
+## The Vision
 
-Because I'd rather build features than maintain a browser engine. WKWebView gives me:
-- Cold start < 500ms
-- Tab switching < 50ms
-- Native macOS integration
-- Solo developer-friendly
-- Zero bloat
+> **"A browser designed for thinking, not scrolling."**
 
-## The Vision (What's Coming)
+**Speed is Philosophy**. Every interaction must feel instant. Native performance isn't a feature - it's the foundation everything else builds on.
 
-**Task Flows**: Better understanding user intent over single queries. E.g., "research topic X", "plan trip to Y", "compare products A, B, C".
+**Intelligence, Not Interruption**. AI should augment your thinking without demanding attention - we are learning to work with AI, not for it to work for us.
 
-**No Address Bar**: Don't make me think about URLs. Just let me search, navigate, and act.
-
-**No Tabs**: Web should be more human-friendly. More immersive experience, less tab-juggling.
-
+**Beyond Tabs & URLs**. The web should be more human. We're building toward intent-driven browsing where you express goals, not addresses.
 
 ## Download
 
-[Latest Release (v0.5.3)](https://github.com/chagel/flakes/releases/latest)
+[**Download Latest Release**](https://github.com/chagel/flakes/releases/latest)
 
-**Requirements**: macOS 13.0+, works on Apple Silicon and Intel
+**Requirements**: macOS 13.0+, Apple Silicon and Intel
 
-1. Download and unzip
+1. Download the DMG
 2. Drag to Applications
 3. Right-click → Open (first launch only)
-4. Press ⌘K and start typing
+4. Press ⌘K and start exploring
 
-## Quick Reference
 
-| Action | Shortcut |
-|--------|----------|
-| Show Shortcuts | ? |
-| Command Center | ⌘ + K |
-| Go Home | ⌘ + G |
-| Edit URL | ⌘ + O |
-| Focus Mode | ⌘ + Enter |
-| Read/Edit Mode | ESC / I |
-| Link hints | F |
+## Feedback
 
-## Feedback Welcome
-
-This is very much a work in progress. I'm building it because I need it, but I'd love to hear if it helps you too.
+This is a work in progress. I'm iterating quickly and releasing often. Welcome to sending any requests, ideas, or bug reports(including website compatibility issues).
 
 - Report bugs: [GitHub Issues](https://github.com/chagel/flakes/issues)
 - Share ideas: [GitHub Discussions](https://github.com/chagel/flakes/discussions)
-- Quick feedback: [@chagel](https://x.com/chagel) on 𝕏
-
-## Roadmap
-
-Current focus: Smart AI (Dec 2025), split-view, cloud sync.
+- Quick feedback: [@chagel](https://x.com/chagel) on 𝕏 or [email me](hello@flakes.ai)
 
 ## License
 
