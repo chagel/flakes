@@ -6,6 +6,23 @@
     <description>Flakes Browser automatic updates</description>
     <language>en</language>
     <item>
+      <title>Version 0.6.0</title>
+      <pubDate>Fri, 28 Nov 2025 23:44:41 -0800</pubDate>
+      <sparkle:version>19</sparkle:version>
+      <sparkle:shortVersionString>0.6.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>What's New in v0.6.0</h2>
+        <ul><li>Reflection - AI-powered page analysis that classifies content and generates insights for pages worth remembering (⌘⇧R)</li><li>Journal - Daily browsing summaries with reading time, topics, and key insights (⌘⇧J)</li><li>Shield - Native ad and tracker blocking using EasyList and EasyPrivacy filter lists</li><li>Delete for individual reflections and history entries</li><li>Improved AI Settings panel and command palette organization</li><li>Refined About window layout</li><li>History list shows recent visits at top with time-only timestamp</li></ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/chagel/flakes/releases/download/v0.6.0/Flakes-v0.6.0-macOS.zip"
+        length="2918836"
+        type="application/octet-stream"
+        sparkle:edSignature="KpHwmWFApKdnYE580lm/L2Z8VaLhzYa7F/kfrsHdKa2fTY51cRIdZU5boEcLzotqdDql8Ue7UQ1lRNLWlUlQCA=="
+      />
+    </item>
+    <item>
       <title>Version 0.5.9</title>
       <pubDate>Thu, 27 Nov 2025 23:09:12 -0800</pubDate>
       <sparkle:version>18</sparkle:version>
