@@ -1,0 +1,28 @@
+# Filter List Licenses
+
+This folder contains filter lists converted to WebKit Content Blocker JSON format.
+
+## EasyList and EasyPrivacy
+
+The EasyList and EasyPrivacy filter lists are copyright of The EasyList authors
+(https://easylist.to/).
+
+These lists are dual-licensed under:
+
+1. **GNU General Public License version 3** (or any later version)
+   https://www.gnu.org/licenses/gpl-3.0.html
+
+2. **Creative Commons Attribution-ShareAlike 3.0 Unported** (or any later version)
+   https://creativecommons.org/licenses/by-sa/3.0/
+
+You may use and/or modify the files as permitted by either license.
+
+### Attribution
+
+Source: The EasyList authors (https://easylist.to/)
+Repository: https://github.com/easylist/easylist
+
+### Original Lists
+
+- EasyList: https://easylist.to/easylist/easylist.txt
+- EasyPrivacy: https://easylist.to/easylist/easyprivacy.txt
