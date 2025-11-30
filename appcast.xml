@@ -6,6 +6,23 @@
     <description>Flakes Browser automatic updates</description>
     <language>en</language>
     <item>
+      <title>Version 0.6.2</title>
+      <pubDate>Sat, 29 Nov 2025 22:28:19 -0800</pubDate>
+      <sparkle:version>20</sparkle:version>
+      <sparkle:shortVersionString>0.6.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>What's New in v0.6.2</h2>
+        <ul><li>Developer Tools panel with Console, Source, Network, and Elements tabs</li><li>View Page Source (⌘U) with syntax highlighting</li><li>Network Panel - track XHR, Fetch, and document requests with timing</li><li>Elements Inspector - DOM tree viewer with Styles, Computed, and Box Model tabs</li><li>Click-to-inspect mode (⌘I) with element highlighting overlay</li><li>Allow localhost/127.0.0.1 URLs to load for local development</li><li>Dynamic user agent version from bundle (Major.Minor format)</li></ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/chagel/flakes/releases/download/v0.6.2/Flakes-v0.6.2-macOS.zip"
+        length="3307846"
+        type="application/octet-stream"
+        sparkle:edSignature="Zazk7tqaEc4fXbfmzEnYcsSZdox/pK0/oh+0bvW70rDptE0hP6xRaKkOdsRpOX7Tj1qOqWQ6V68jleP3+IhXCA=="
+      />
+    </item>
+    <item>
       <title>Version 0.6.0</title>
       <pubDate>Fri, 28 Nov 2025 23:44:41 -0800</pubDate>
       <sparkle:version>19</sparkle:version>
