@@ -6,6 +6,23 @@
     <description>Flakes Browser automatic updates</description>
     <language>en</language>
     <item>
+      <title>Version 0.6.3</title>
+      <pubDate>Sun, 30 Nov 2025 23:26:44 -0800</pubDate>
+      <sparkle:version>21</sparkle:version>
+      <sparkle:shortVersionString>0.6.3</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>What's New in v0.6.3</h2>
+        <ul><li>Set as Default Browser command with detection</li><li>Send Feedback command with app context (version, macOS, hardware)</li><li>Share with Friend - recommend Flakes via email</li><li>Link hints now support form elements (inputs, buttons, selects)</li><li>Status bar feedback system for user actions</li><li>Fix repetitive notifications even checked remember choice</li></ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/chagel/flakes/releases/download/v0.6.3/Flakes-v0.6.3-macOS.zip"
+        length="3331875"
+        type="application/octet-stream"
+        sparkle:edSignature="M/2WJ6HWGG45yDhz7ybREtX07cSH5T2BX7vibTMhkTsXFP93w0iGwXfzmDHPDuTOP3ZOxA0auphLadU4N6/fAA=="
+      />
+    </item>
+    <item>
       <title>Version 0.6.2</title>
       <pubDate>Sat, 29 Nov 2025 22:28:19 -0800</pubDate>
       <sparkle:version>20</sparkle:version>
