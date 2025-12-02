@@ -6,6 +6,23 @@
     <description>Flakes Browser automatic updates</description>
     <language>en</language>
     <item>
+      <title>Version 0.6.5</title>
+      <pubDate>Tue, 02 Dec 2025 00:13:39 -0800</pubDate>
+      <sparkle:version>22</sparkle:version>
+      <sparkle:shortVersionString>0.6.5</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>What's New in v0.6.5</h2>
+        <ul><li>Sites view - aggregate history by domain with visit counts and bookmarks</li><li>Unified History window with Sites/History tabs (Tab key to switch)</li><li>Favicon caching - site icons persist across sessions</li><li>Full keyboard navigation for Downloads, History, and Profiles windows</li><li>Confirmation dialogs for clear history, clear downloads, and delete profile</li><li>Consistent keyboard shortcuts across modal views (X delete, C clear, Esc close)</li><li>Disable page-specific shortcuts on home view to prevent crashes</li><li>Fix layout shift animation on profile window open</li></ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/chagel/flakes/releases/download/v0.6.5/Flakes-v0.6.5-macOS.zip"
+        length="3462046"
+        type="application/octet-stream"
+        sparkle:edSignature="M6B1Ci6Te5hBNZErwtTCggIR0C+0PIv0zqBU5JNq1ZcPoPVsmtwpm0jisg8X2AMWUCG9oXJfEukltk2Udht5Dw=="
+      />
+    </item>
+    <item>
       <title>Version 0.6.3</title>
       <pubDate>Sun, 30 Nov 2025 23:26:44 -0800</pubDate>
       <sparkle:version>21</sparkle:version>
