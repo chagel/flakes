@@ -1,8 +1,8 @@
 A fast, native, keyboard-first modern browser that thinks with you. Built on WebKit for speed and efficiency, enhanced with AI for smarter browsing.
 
-![Flakes Browser](cover.png)
+![Flakes Browser](demo.gif)
 
-**⚠️ Not a typical browser.** Flakes has no toolbar, no address bar, and minimal chrome. Everything is accessed via keyboard shortcuts and the command palette (⌘K). If you rely on clicking buttons to navigate, this browser is not for you. Built for hackers, writers, and power users who live in their keyboards.
+**Spoiler: Not a typical browser.** Flakes has no toolbar, no address bar, and minimal chrome. Everything is accessed via keyboard shortcuts and the command palette (⌘K). If you rely on clicking buttons to navigate, this browser is not for you. Built for hackers, writers, and power users who live in their keyboards.
 
 ## Why Flakes?
 
