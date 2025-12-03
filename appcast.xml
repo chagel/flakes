@@ -6,6 +6,23 @@
     <description>Flakes Browser automatic updates</description>
     <language>en</language>
     <item>
+      <title>Version 0.6.6</title>
+      <pubDate>Wed, 03 Dec 2025 00:34:01 -0800</pubDate>
+      <sparkle:version>23</sparkle:version>
+      <sparkle:shortVersionString>0.6.6</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>What's New in v0.6.6</h2>
+        <ul><li>Window screenshot capture with gradient background (⌘⇧S)</li><li>JavaScript dialog support - native alert(), confirm(), prompt()</li><li>Default profile support of startup</li><li>Return to home view when closing tabs or switching profiles</li><li>Improve some keyboard shortcuts behavior</li></ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/chagel/flakes/releases/download/v0.6.6/Flakes-v0.6.6-macOS.zip"
+        length="3486078"
+        type="application/octet-stream"
+        sparkle:edSignature="4B4aqAyVPSdIbmj3JJJ0uZlQvIYhZMPmIJU1jqSDuiIiDLlQw1k2vbFzjCX/UOr+OiR+JcQuIGAtK6qptFfjBA=="
+      />
+    </item>
+    <item>
       <title>Version 0.6.5</title>
       <pubDate>Tue, 02 Dec 2025 00:13:39 -0800</pubDate>
       <sparkle:version>22</sparkle:version>
