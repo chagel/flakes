@@ -1,0 +1,68 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout
+  description="Flakes respects your privacy. No tracking, no registration, no data collection."
+  title="Privacy Policy · Flakes"
+>
+  <div class="mx-auto max-w-3xl px-4 py-16 sm:px-6 sm:py-20 lg:px-8">
+    <div class="sm:pb:20 flex flex-col gap-4 pb-16 text-center">
+      <h1 class="text-4xl font-medium tracking-tight sm:text-5xl">Privacy Policy</h1>
+      <p class="text-base text-primary-950/70 dark:text-primary-200/70">Last update: December 3, 2025</p>
+    </div>
+    <div class="text-primary-950/70 dark:text-primary-200/70">
+      <p class="mb-8 text-lg">
+        Flakes is built with privacy as a core principle. We believe your browsing data belongs to you and only you.
+      </p>
+
+      <h2 class="mb-6 mt-12 text-xl font-medium sm:text-2xl text-primary-950 dark:text-primary-200">The Short Version</h2>
+      <ul class="list-inside list-disc space-y-4 mb-8">
+        <li>We do not collect any personal information</li>
+        <li>We do not track your browsing activity</li>
+        <li>We do not require registration or account creation</li>
+        <li>We do not use cookies or analytics</li>
+        <li>All your data stays on your device</li>
+      </ul>
+
+      <h2 class="mb-6 mt-12 text-xl font-medium sm:text-2xl text-primary-950 dark:text-primary-200">What We Do</h2>
+      <p class="mb-6">
+        The only network request Flakes makes to our servers is to check for application updates. This request contains:
+      </p>
+      <ul class="list-inside list-disc space-y-4 mb-8">
+        <li>Your current app version (to determine if an update is available)</li>
+        <li>Your operating system version (to ensure compatibility)</li>
+      </ul>
+      <p class="mb-8">
+        No personal information, browsing history, or identifiable data is transmitted during this check.
+      </p>
+
+      <h2 class="mb-6 mt-12 text-xl font-medium sm:text-2xl text-primary-950 dark:text-primary-200">Local Data</h2>
+      <p class="mb-6">
+        Flakes stores the following data locally on your device:
+      </p>
+      <ul class="list-inside list-disc space-y-4 mb-8">
+        <li>Your browsing history and visited sites</li>
+        <li>Session data and open tabs</li>
+        <li>Application preferences and settings</li>
+        <li>AI-generated reflections (if AI features are enabled)</li>
+      </ul>
+      <p class="mb-8">
+        This data never leaves your device unless you explicitly choose to export it.
+      </p>
+
+      <h2 class="mb-6 mt-12 text-xl font-medium sm:text-2xl text-primary-950 dark:text-primary-200">Third-Party Services</h2>
+      <p class="mb-6">
+        If you enable AI features, Flakes will send page content to the AI provider you configure (OpenAI or Anthropic) to generate summaries and reflections. This is optional and disabled by default. Your API keys are stored securely in macOS Keychain—we never access, transmit, or use your keys for any other purpose.
+      </p>
+      <p class="mb-8">
+        Ad blocking uses uBOL filter rules that are downloaded on first use and updated periodically. The filtering itself is performed locally—no browsing data is sent to external services.
+      </p>
+
+      <h2 class="mb-6 mt-12 text-xl font-medium sm:text-2xl text-primary-950 dark:text-primary-200">Contact</h2>
+      <p class="mb-4">
+        If you have any questions about this Privacy Policy, please contact us at <a href="mailto:hello@flakes.ai" class="text-primary-600 dark:text-primary-400 hover:underline">hello@flakes.ai</a>.
+      </p>
+    </div>
+  </div>
+</Layout>
