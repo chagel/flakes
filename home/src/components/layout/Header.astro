@@ -1,10 +1,9 @@
 ---
-const base = import.meta.env.BASE_URL;
 const links = [
   {
     ref: '01',
     name: 'Home',
-    href: base,
+    href: '/',
   },
   {
     ref: '02',
@@ -30,12 +29,12 @@ const links = [
     <!-- Brand logo -->
     <div class="flex">
       <a
-        href={base}
+        href="/"
         class="focus-visible:outline-primary-950 dark:group-focus-visible:outline-primary-200 rounded-md focus-visible:outline focus-visible:outline-2 flex items-center gap-2"
       >
         <span class="sr-only">Flakes</span>
         <img
-          src={`${base}/assets/logo.png`}
+          src="/assets/logo.png"
           alt="Flakes"
           class="h-7 w-auto dark:invert"
         />

@@ -1,12 +1,11 @@
 ---
-const base = import.meta.env.BASE_URL;
 const bottomLinks = [
   {
     header: 'Product',
     links: [
       {
         name: 'Features',
-        href: `${base}#features`,
+        href: '/#features',
         isExternal: false,
       },
       {
@@ -16,7 +15,7 @@ const bottomLinks = [
       },
       {
         name: 'Privacy',
-        href: `${base}/privacy`,
+        href: '/privacy',
         isExternal: false,
       },
     ],
@@ -44,7 +43,7 @@ const bottomLinks = [
       <div class="flex max-w-sm flex-col items-start gap-6 sm:gap-8">
         <div class="flex items-center gap-2">
           <img
-            src={`${base}/assets/logo.png`}
+            src="/assets/logo.png"
             alt="Flakes"
             class="h-7 w-auto dark:invert"
           />
