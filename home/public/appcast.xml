@@ -6,6 +6,23 @@
     <description>Flakes Browser automatic updates</description>
     <language>en</language>
     <item>
+      <title>Version 0.6.8</title>
+      <pubDate>Thu, 04 Dec 2025 22:40:58 -0800</pubDate>
+      <sparkle:version>25</sparkle:version>
+      <sparkle:shortVersionString>0.6.8</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>What's New in v0.6.8</h2>
+        <ul><li>New tabs open next to current tab instead of at the end</li><li>⌘O edit URL no longer matches existing tabs</li><li>Insert mode now properly syncs with keyboard focus</li><li>Fall back to search when AI is not configured</li><li>Update Sparkle feed URL for automatic updates</li></ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/chagel/flakes/releases/download/v0.6.8/Flakes-v0.6.8-macOS.zip"
+        length="3534419"
+        type="application/octet-stream"
+        sparkle:edSignature="+BEdXIHSXnTUQP/asMEa0oESjUVyabcW9KULHJjkW+gVHrlxEqHJ8WG3ZWY+L4DC/IDvJ+0Cf/XsnjWwCZblBg=="
+      />
+    </item>
+    <item>
       <title>Version 0.6.7</title>
       <pubDate>Thu, 04 Dec 2025 21:59:50 -0800</pubDate>
       <sparkle:version>24</sparkle:version>
