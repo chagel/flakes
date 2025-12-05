@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
     <title>Flakes Browser Updates</title>
-    <link>https://chagel.github.io/flakes/appcast.xml</link>
+    <link>https://flakes.ai/appcast.xml</link>
     <description>Flakes Browser automatic updates</description>
     <language>en</language>
     <item>
