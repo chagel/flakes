@@ -6,6 +6,23 @@
     <description>Flakes Browser automatic updates</description>
     <language>en</language>
     <item>
+      <title>Version 0.7.0</title>
+      <pubDate>Wed, 10 Dec 2025 00:10:48 -0800</pubDate>
+      <sparkle:version>26</sparkle:version>
+      <sparkle:shortVersionString>0.7.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>What's New in v0.7.0</h2>
+        <ul><li>Invitation code to unlock full AI features</li><li>Global Settings window</li><li>Flakes Translation service</li><li>AI providers(OpenAI, Anthropic, Gemini) API key management</li><li>Drift (command palette) customization - configurable shortcut and search engine</li><li>Automatic text field detection replaces manual INSERT/VIEW modes</li><li>Translation 10x faster with parallel batch processing</li><li>Remove App Sandbox to fix downloaded apps quarantine issue</li><li>Improved data migration from sandboxed versions with session restoration</li><li>Swift 6 actor isolation fixes for crash-free concurrency</li></ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/chagel/flakes/releases/download/v0.7.0/Flakes-v0.7.0-macOS.zip"
+        length="4612257"
+        type="application/octet-stream"
+        sparkle:edSignature="OqxKGOqKJT6TT4SK5YhgzjnP4l2+Cx/jp9dogLdbzyxANzrSHSjUgOuLxeNRnBAywLhjuCovxTn5HB/meGG9BA=="
+      />
+    </item>
+    <item>
       <title>Version 0.6.8</title>
       <pubDate>Thu, 04 Dec 2025 22:40:58 -0800</pubDate>
       <sparkle:version>25</sparkle:version>
