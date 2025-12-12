@@ -6,6 +6,23 @@
     <description>Flakes Browser automatic updates</description>
     <language>en</language>
     <item>
+      <title>Version 0.7.2</title>
+      <pubDate>Fri, 12 Dec 2025 00:40:37 -0800</pubDate>
+      <sparkle:version>28</sparkle:version>
+      <sparkle:shortVersionString>0.7.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>What's New in v0.7.2</h2>
+        <ul><li>GPT-5.2 model support</li><li>AI response footer shows provider and model name</li><li>Correct Anthropic model identifiers (claude-haiku-4-5)</li><li>Correct Gemini model identifiers</li><li>AI streaming response text extraction</li></ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/chagel/flakes/releases/download/v0.7.2/Flakes-v0.7.2-macOS.zip"
+        length="5971504"
+        type="application/octet-stream"
+        sparkle:edSignature="Pkv8AGmdFnumq9cb7G/yWcl7BDt8vxH1KA5Cj3HgT1DqBNkhPAnVHGqlFvdVq9ENLjbEEwCQFY3qvbvnt0QvDg=="
+      />
+    </item>
+    <item>
       <title>Version 0.7.1</title>
       <pubDate>Fri, 12 Dec 2025 00:16:38 -0800</pubDate>
       <sparkle:version>27</sparkle:version>
