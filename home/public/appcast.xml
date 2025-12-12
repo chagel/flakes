@@ -6,6 +6,23 @@
     <description>Flakes Browser automatic updates</description>
     <language>en</language>
     <item>
+      <title>Version 0.7.1</title>
+      <pubDate>Fri, 12 Dec 2025 00:16:38 -0800</pubDate>
+      <sparkle:version>27</sparkle:version>
+      <sparkle:shortVersionString>0.7.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>What's New in v0.7.1</h2>
+        <ul><li>Flux Input - new command palette with token chips, ghost text autocomplete, and @ context</li><li>/goto - AI-assisted navigation</li><li>Back/forward navigation buttons in sidebar</li><li>GPT-5.2/Claude-3.5/Gemini-2.5 models support</li><li>Network error minimal notifications</li><li>ESC in text fields now blurs and enters View mode</li><li>Unified LLM API using AnyLanguageModel package</li><li>WebView keyboard focus after command palette navigation</li><li>Close tab now switches to adjacent tab instead of home view</li><li>Progress bar now hides after back/forward navigation</li><li>Device ID no longer regenerates on UI re-renders</li></ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/chagel/flakes/releases/download/v0.7.1/Flakes-v0.7.1-macOS.zip"
+        length="5970384"
+        type="application/octet-stream"
+        sparkle:edSignature="6Mb/uaGqzEtg8RoCTW2c6qScnMhfVeAmzh/2Al3OIxzBNQ2Q9gtJz5JRUdExZdSIMxtHTXpBVfUBrplIm0CpCQ=="
+      />
+    </item>
+    <item>
       <title>Version 0.7.0</title>
       <pubDate>Wed, 10 Dec 2025 00:10:48 -0800</pubDate>
       <sparkle:version>26</sparkle:version>
