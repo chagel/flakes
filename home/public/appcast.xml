@@ -7,7 +7,7 @@
     <language>en</language>
     <item>
       <title>Version 0.8.0</title>
-      <pubDate>Mon, 15 Dec 2025 13:56:38 -0800</pubDate>
+      <pubDate>Mon, 15 Dec 2025 15:33:29 -0800</pubDate>
       <sparkle:version>29</sparkle:version>
       <sparkle:shortVersionString>0.8.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
@@ -17,9 +17,9 @@
       ]]></description>
       <enclosure
         url="https://github.com/chagel/flakes/releases/download/v0.8.0/Flakes-v0.8.0-macOS.zip"
-        length="6340858"
+        length="6336347"
         type="application/octet-stream"
-        sparkle:edSignature="+mCNPNm8giey38QCeVhaONtr7O7yfuDJpTVLd8BbkK9ETCIFX4Ti7ZP2InXMcV5xZr8zVcRiC9tVJNsQVL3oDw=="
+        sparkle:edSignature="ac2PVTzhZiyU8otH1qTWHUdjHug7PaVM1C/c+rI361PScnvFYCjmbbdCkL0UopEkjp31MVigOsYtvaaWOyizAg=="
       />
     </item>
     <item>
