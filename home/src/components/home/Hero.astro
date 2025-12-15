@@ -31,7 +31,7 @@
 
       <!-- Interactive Browser Mockup -->
       <div
-        class="bg-primary-500/10 dark:bg-primary-400/10 rounded-3xl p-3 sm:p-4"
+        class="bg-primary-500/10 dark:bg-primary-400/10 rounded-3xl p-3 sm:p-4 animate-glow"
         x-data="browserDemo()"
         @keydown.window="handleKeydown($event)"
       >
@@ -62,7 +62,7 @@
               x-transition:leave="transition ease-in duration-150"
               x-transition:leave-start="opacity-100"
               x-transition:leave-end="opacity-0"
-              class="absolute inset-0 bg-black/60 backdrop-blur-sm flex items-start justify-center pt-8 sm:pt-12"
+              class="absolute inset-0 bg-black/60 backdrop-blur-sm flex items-center justify-center"
               @click.self="showPalette = false"
             >
               <div
@@ -125,6 +125,21 @@
     </div>
   </div>
 </section>
+
+<style>
+  @keyframes glow {
+    0%, 100% {
+      box-shadow: 0 0 20px rgba(120, 120, 120, 0.1);
+    }
+    50% {
+      box-shadow: 0 0 40px rgba(120, 120, 120, 0.25), 0 0 60px rgba(120, 120, 120, 0.1);
+    }
+  }
+  .animate-glow {
+    animation: glow 4s ease-in-out infinite;
+  }
+
+</style>
 
 <script>
   document.addEventListener('alpine:init', () => {
