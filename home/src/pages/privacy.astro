@@ -3,13 +3,13 @@ import Layout from '../layouts/Layout.astro';
 ---
 
 <Layout
-  description="Flakes respects your privacy. No tracking, no registration, no data collection."
+  description="Flakes respects your privacy. No tracking, minimal data collection. Optional accounts for AI features."
   title="Privacy Policy · Flakes"
 >
   <div class="mx-auto max-w-3xl px-4 py-16 sm:px-6 sm:py-20 lg:px-8">
     <div class="sm:pb:20 flex flex-col gap-4 pb-16 text-center">
       <h1 class="text-4xl font-medium tracking-tight sm:text-5xl">Privacy Policy</h1>
-      <p class="text-base text-primary-950/70 dark:text-primary-200/70">Last update: December 3, 2025</p>
+      <p class="text-base text-primary-950/70 dark:text-primary-200/70">Last update: December 15, 2025</p>
     </div>
     <div class="text-primary-950/70 dark:text-primary-200/70">
       <p class="mb-8 text-lg">
@@ -18,11 +18,11 @@ import Layout from '../layouts/Layout.astro';
 
       <h2 class="mb-6 mt-12 text-xl font-medium sm:text-2xl text-primary-950 dark:text-primary-200">The Short Version</h2>
       <ul class="list-inside list-disc space-y-4 mb-8">
-        <li>We do not collect any personal information</li>
+        <li>Flakes is free to use without registration</li>
         <li>We do not track your browsing activity</li>
-        <li>We do not require registration or account creation</li>
-        <li>We do not use cookies or analytics</li>
-        <li>All your data stays on your device</li>
+        <li>AI features require an optional account and subscription</li>
+        <li>We do not use cookies or analytics for tracking</li>
+        <li>All your browsing data stays on your device</li>
       </ul>
 
       <h2 class="mb-6 mt-12 text-xl font-medium sm:text-2xl text-primary-950 dark:text-primary-200">What We Do</h2>
@@ -45,16 +45,42 @@ import Layout from '../layouts/Layout.astro';
         <li>Your browsing history and visited sites</li>
         <li>Session data and open tabs</li>
         <li>Application preferences and settings</li>
-        <li>AI-generated reflections (if AI features are enabled)</li>
+        <li>AI-generated content (if AI features are enabled)</li>
       </ul>
       <p class="mb-8">
         This data never leaves your device unless you explicitly choose to export it.
       </p>
 
-      <h2 class="mb-6 mt-12 text-xl font-medium sm:text-2xl text-primary-950 dark:text-primary-200">Third-Party Services</h2>
+      <h2 class="mb-6 mt-12 text-xl font-medium sm:text-2xl text-primary-950 dark:text-primary-200">Accounts & Subscriptions</h2>
       <p class="mb-6">
-        If you enable AI features, Flakes will send page content to the AI provider you configure (OpenAI or Anthropic) to generate summaries and reflections. This is optional and disabled by default. Your API keys are stored securely in macOS Keychain—we never access, transmit, or use your keys for any other purpose.
+        Flakes is free to use without creating an account. However, AI features require an account and an active subscription. You can sign in using:
       </p>
+      <ul class="list-inside list-disc space-y-4 mb-6">
+        <li>Email</li>
+        <li>Apple</li>
+        <li>Google</li>
+      </ul>
+      <p class="mb-6">
+        When you create an account, we collect and store:
+      </p>
+      <ul class="list-inside list-disc space-y-4 mb-6">
+        <li>Your email address</li>
+        <li>Your name (if provided by sign-in provider)</li>
+        <li>Subscription status and billing information</li>
+      </ul>
+      <p class="mb-8">
+        This information is used solely to manage your subscription and provide AI features. We do not share your account information with third parties except for payment processing.
+      </p>
+
+      <h2 class="mb-6 mt-12 text-xl font-medium sm:text-2xl text-primary-950 dark:text-primary-200">Flakes AI</h2>
+      <p class="mb-6">
+        Subscription users have access to Flakes AI, our API service that powers AI features in the browser. When you use AI features, page content is sent to our servers for processing. We do not store or use this content beyond providing the requested functionality.
+      </p>
+      <p class="mb-8">
+        Alternatively, you can bring your own API keys. These keys are stored securely in macOS Keychain and never sent to our servers or used for any other purpose.
+      </p>
+
+      <h2 class="mb-6 mt-12 text-xl font-medium sm:text-2xl text-primary-950 dark:text-primary-200">Ad Blocking</h2>
       <p class="mb-8">
         Ad blocking uses uBOL filter rules that are downloaded on first use and updated periodically. The filtering itself is performed locally—no browsing data is sent to external services.
       </p>
