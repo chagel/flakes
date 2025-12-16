@@ -6,6 +6,23 @@
     <description>Flakes Browser automatic updates</description>
     <language>en</language>
     <item>
+      <title>Version 0.8.1</title>
+      <pubDate>Tue, 16 Dec 2025 00:24:49 -0800</pubDate>
+      <sparkle:version>30</sparkle:version>
+      <sparkle:shortVersionString>0.8.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>What's New in v0.8.1</h2>
+        <ul><li>Sign in with Apple now works</li><li>Improve the OAuth sign-in flow more robustly</li><li>Add oAuth progress overlay when completing sign-in in browser</li><li>Improve account UI design in Settings</li></ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/chagel/flakes/releases/download/v0.8.1/Flakes-v0.8.1-macOS.zip"
+        length="6361624"
+        type="application/octet-stream"
+        sparkle:edSignature="GZ0nYzAe+xpAoCwGCqWcJeTPTiGmyGRmFJT7+CiaMlFT+/DxCC4SA8yeUvFIjr5f/OWmym1YeGsNkC1qp1lKCQ=="
+      />
+    </item>
+    <item>
       <title>Version 0.8.0</title>
       <pubDate>Mon, 15 Dec 2025 17:16:55 -0800</pubDate>
       <sparkle:version>29</sparkle:version>
