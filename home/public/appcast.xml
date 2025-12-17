@@ -6,6 +6,23 @@
     <description>Flakes Browser automatic updates</description>
     <language>en</language>
     <item>
+      <title>Version 0.8.2</title>
+      <pubDate>Wed, 17 Dec 2025 02:10:53 -0800</pubDate>
+      <sparkle:version>31</sparkle:version>
+      <sparkle:shortVersionString>0.8.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>What's New in v0.8.2</h2>
+        <ul><li>Avatar upload to personalize your account</li><li>Edit display name in account settings</li><li>New account entry in sidebar with quick access menu</li><li>Fix HomeView layout & scroll and simplified focus time display</li><li>Improve AI responses render with proper markdown formatting</li><li>Default to Flakes AI for paid users without explicit provider config</li><li>Fix AI responses now properly decode UTF-8 characters</li><li>Fix Link hints clicking now works reliably</li></ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/chagel/flakes/releases/download/v0.8.2/Flakes-v0.8.2-macOS.zip"
+        length="7491869"
+        type="application/octet-stream"
+        sparkle:edSignature="CYsaIjXZV0JLBFCIIMzZu0w73L/Cl069BX0b2G9QSnIj8EENc98RWVKNjgUfptUP3Ldsk05BH/nTdJzw8ZF1CA=="
+      />
+    </item>
+    <item>
       <title>Version 0.8.1</title>
       <pubDate>Tue, 16 Dec 2025 00:24:49 -0800</pubDate>
       <sparkle:version>30</sparkle:version>
