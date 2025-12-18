@@ -7,19 +7,19 @@
     <language>en</language>
     <item>
       <title>Version 0.8.3</title>
-      <pubDate>Wed, 17 Dec 2025 23:20:38 -0800</pubDate>
+      <pubDate>Wed, 17 Dec 2025 23:32:49 -0800</pubDate>
       <sparkle:version>33</sparkle:version>
       <sparkle:shortVersionString>0.8.3</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
         <h2>What's New in v0.8.3</h2>
-        <p>Bug fixes and improvements</p>
+        <ul><li>Profile redesign - switch without reload</li><li>Bookmark/unbookmark current site(⌘D)</li><li>Translate submenu shows preferred language at top</li><li>Add default hint in empty Drift panel (/ for commands, @ for context)</li><li>Fix /goto command for better suggestions</li><li>Fix tab titles - now update correctly for SPA navigation</li><li>Fix parent tab favicon - no longer updates when opening new tabs</li><li>Fix defaultToNewTab when create new tab</li></ul>
       ]]></description>
       <enclosure
         url="https://github.com/chagel/flakes/releases/download/v0.8.3/Flakes-v0.8.3-macOS.zip"
-        length="7502138"
+        length="7502117"
         type="application/octet-stream"
-        sparkle:edSignature="65/5ovICeNGZQcW8wlhvO/FwUnGn5SGRQpAC8LIAjgf+tMDPX035icpg5FB4y5o+I1yfD1vnJDMIRWdA9Iv2DA=="
+        sparkle:edSignature="Q9Fjt4BT5msuQGHl0WLmVUg0Nx5D8KnM/QEma5xHIEHTZ9FlbyetEfb96N75TLYkQs5B4W8U3P2hEhQBzQv6Aw=="
       />
     </item>
     <item>
