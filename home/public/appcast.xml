@@ -6,6 +6,23 @@
     <description>Flakes Browser automatic updates</description>
     <language>en</language>
     <item>
+      <title>Version 0.8.3</title>
+      <pubDate>Wed, 17 Dec 2025 23:20:38 -0800</pubDate>
+      <sparkle:version>33</sparkle:version>
+      <sparkle:shortVersionString>0.8.3</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>What's New in v0.8.3</h2>
+        <p>Bug fixes and improvements</p>
+      ]]></description>
+      <enclosure
+        url="https://github.com/chagel/flakes/releases/download/v0.8.3/Flakes-v0.8.3-macOS.zip"
+        length="7502138"
+        type="application/octet-stream"
+        sparkle:edSignature="65/5ovICeNGZQcW8wlhvO/FwUnGn5SGRQpAC8LIAjgf+tMDPX035icpg5FB4y5o+I1yfD1vnJDMIRWdA9Iv2DA=="
+      />
+    </item>
+    <item>
       <title>Version 0.8.2</title>
       <pubDate>Wed, 17 Dec 2025 02:10:53 -0800</pubDate>
       <sparkle:version>31</sparkle:version>
