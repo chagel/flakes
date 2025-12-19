@@ -6,6 +6,23 @@
     <description>Flakes Browser automatic updates</description>
     <language>en</language>
     <item>
+      <title>Version 0.8.4</title>
+      <pubDate>Fri, 19 Dec 2025 01:27:39 -0800</pubDate>
+      <sparkle:version>34</sparkle:version>
+      <sparkle:shortVersionString>0.8.4</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>What's New in v0.8.4</h2>
+        <ul><li>New feature: Private browsing mode (⌘⇧N)</li><li>Native address bar on webviews</li><li>Toggle Vim navigation mode - simplify view/insert switching</li><li>Settings UI redesign with icons</li><li>Add scroll indicators for modal views</li><li>Optimized content blocker compilation with parallel processing</li></ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/chagel/flakes/releases/download/v0.8.4/Flakes-v0.8.4-macOS.zip"
+        length="7598541"
+        type="application/octet-stream"
+        sparkle:edSignature="4TtrElAYf4QCW+CyGxp4eJNfBHF1zN6U3ncXjHUpTeoazOO9uKZIrvAPdlJ69Xp5lZDc4mjoV6Y22g0ckkhjDA=="
+      />
+    </item>
+    <item>
       <title>Version 0.8.3</title>
       <pubDate>Wed, 17 Dec 2025 23:32:49 -0800</pubDate>
       <sparkle:version>33</sparkle:version>
