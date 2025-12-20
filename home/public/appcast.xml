@@ -6,6 +6,23 @@
     <description>Flakes Browser automatic updates</description>
     <language>en</language>
     <item>
+      <title>Version 0.8.5</title>
+      <pubDate>Sat, 20 Dec 2025 00:58:45 -0800</pubDate>
+      <sparkle:version>35</sparkle:version>
+      <sparkle:shortVersionString>0.8.5</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>What's New in v0.8.5</h2>
+        <ul><li>Simplified Drift - just type naturally, AI understands your intent</li><li>Translation now works on CSP-restricted sites (archive.is)</li><li>Unified search engine settings across toolbar and Drift</li><li>Improved AI response formatting</li></ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/chagel/flakes/releases/download/v0.8.5/Flakes-v0.8.5-macOS.zip"
+        length="7522857"
+        type="application/octet-stream"
+        sparkle:edSignature="GGO+z0ohclpvJPlh2FUvz0vd2Vtub5iimHfun/+izdgxhPbUlnrOb9TV8DCAyHJC6KlHYIxhAvUnNsm9pEFjBQ=="
+      />
+    </item>
+    <item>
       <title>Version 0.8.4</title>
       <pubDate>Fri, 19 Dec 2025 01:27:39 -0800</pubDate>
       <sparkle:version>34</sparkle:version>
