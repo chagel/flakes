@@ -1,35 +1,43 @@
-<section id="download" class="py-16 sm:py-20">
-  <div class="mx-auto max-w-2xl px-4 text-center sm:px-6 lg:max-w-7xl lg:px-8">
-    <div
-      class="bg-primary-500/10 dark:bg-primary-400/10 flex flex-col items-center gap-8 rounded-3xl px-5 py-16 sm:gap-10"
-    >
-      <div class="flex flex-col gap-4 sm:gap-6">
-        <h2 class="mx-auto max-w-sm text-3xl font-medium tracking-tight sm:text-4xl">
-          Ready to think, not scroll?
+<section id="download" class="py-20 sm:py-28">
+  <div class="mx-auto max-w-3xl px-4 sm:px-6">
+    <div class="relative overflow-hidden rounded-3xl bg-primary-900 dark:bg-primary-100 px-8 py-16 sm:px-16 sm:py-20">
+      <!-- Subtle grid pattern -->
+      <div class="absolute inset-0 opacity-[0.03]" style="background-image: linear-gradient(rgba(255,255,255,1) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,1) 1px, transparent 1px); background-size: 32px 32px;"></div>
+
+      <div class="relative text-center">
+        <h2 class="text-3xl font-medium tracking-tight sm:text-4xl mb-3 text-white dark:text-primary-900">
+          Ready to focus?
         </h2>
-        <p class="text-primary-950/70 dark:text-primary-200/70 mx-auto max-w-2xl text-lg">
-          Flakes is currently in beta. Download now and start browsing with intention.
+        <p class="text-primary-300 dark:text-primary-600 text-lg mb-8 max-w-md mx-auto">
+          Download Flakes and experience a browser built for how you actually work.
         </p>
-      </div>
-      <div class="flex flex-col items-center gap-4">
-        <div class="flex flex-col sm:flex-row gap-4">
+
+        <div class="flex flex-col sm:flex-row items-center justify-center gap-4 mb-8">
           <a
             href="/download"
-            class="bg-primary-600 dark:bg-primary-400 hover:bg-primary-700 dark:hover:bg-primary-300 focus-visible:outline-primary-600 dark:focus-visible:outline-primary-400 dark:text-primary-950 inline-flex items-center justify-center rounded-full border border-transparent px-5 py-3 text-base font-medium text-white transition focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2"
+            class="bg-white dark:bg-primary-900 hover:bg-primary-100 dark:hover:bg-primary-800 text-primary-900 dark:text-white inline-flex items-center justify-center rounded-full px-8 py-3.5 text-base font-medium transition shadow-lg shadow-black/20"
           >
-            Download
-          </a>
-          <a
-            href="mailto:hello@flakes.ai"
-            class="text-primary-950 dark:text-primary-200 hover:bg-primary-500/10 dark:hover:bg-primary-400/10 inline-flex items-center justify-center rounded-full border border-primary-300 dark:border-primary-700 px-5 py-3 text-base font-medium transition"
-          >
-            Get in touch
+            <svg class="w-5 h-5 mr-2 -ml-1" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2zm-1 15v-4H8l4-6v4h3l-4 6z"/>
+            </svg>
+            Download for macOS
           </a>
         </div>
-        <p class="text-primary-950/50 dark:text-primary-200/50 text-sm">
-          Requires macOS 14 Sonoma or later. Universal build for Apple Silicon and Intel.
-        </p>
+
+        <!-- Quick info -->
+        <div class="flex flex-wrap items-center justify-center gap-x-6 gap-y-2 text-sm text-primary-400 dark:text-primary-500">
+          <span>Free</span>
+          <span class="text-primary-600 dark:text-primary-300">·</span>
+          <span>No account</span>
+          <span class="text-primary-600 dark:text-primary-300">·</span>
+          <span>macOS 14+</span>
+        </div>
       </div>
     </div>
+
+    <!-- Contact below card -->
+    <p class="text-center mt-8 text-sm text-primary-950/50 dark:text-primary-200/50">
+      Questions? <a href="mailto:hello@flakes.ai" class="hover:text-primary-950 dark:hover:text-primary-200 transition underline underline-offset-2">hello@flakes.ai</a>
+    </p>
   </div>
 </section>

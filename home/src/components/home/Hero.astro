@@ -7,13 +7,13 @@
       <div class="flex flex-col items-start gap-8 sm:gap-10">
         <div class="flex max-w-xl flex-col items-start gap-4 sm:gap-6">
           <h1 class="text-4xl font-medium tracking-tight sm:text-5xl lg:text-6xl">
-            A browser designed for thinking, not scrolling
+            The browser for<br/>getting things done
           </h1>
           <p class="text-primary-950/70 dark:text-primary-200/70 text-lg sm:text-xl">
-            Flakes is an AI-native, keyboard-first browser for macOS that transforms how you interact with the web.
+            Keyboard-first. AI-powered. Native speed with refined aesthetics. Built for productivity users who value focus over friction.
           </p>
         </div>
-        <div class="flex flex-col sm:flex-row gap-4">
+        <div class="flex flex-col sm:flex-row items-start gap-4">
           <a
             href="/download"
             class="bg-primary-600 dark:bg-primary-400 hover:bg-primary-700 dark:hover:bg-primary-300 focus-visible:outline-primary-600 dark:focus-visible:outline-primary-400 dark:text-primary-950 inline-flex items-center justify-center rounded-full border border-transparent px-5 py-3 text-base font-medium text-white transition focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2"
@@ -24,100 +24,68 @@
             href="#features"
             class="text-primary-950 dark:text-primary-200 hover:bg-primary-500/10 dark:hover:bg-primary-400/10 inline-flex items-center justify-center rounded-full border border-primary-300 dark:border-primary-700 px-5 py-3 text-base font-medium transition"
           >
-            Learn more
+            See features
           </a>
         </div>
+        <p class="text-sm text-primary-950/40 dark:text-primary-200/40">
+          Free download · macOS 14+ · Apple Silicon & Intel
+        </p>
       </div>
 
       <!-- Interactive Browser Mockup -->
       <div
         class="bg-primary-500/10 dark:bg-primary-400/10 rounded-3xl p-3 sm:p-4 animate-glow"
         x-data="browserDemo()"
-        @keydown.window="handleKeydown($event)"
       >
         <!-- Browser Window -->
         <div class="bg-primary-900 dark:bg-primary-950 rounded-2xl overflow-hidden shadow-2xl">
           <!-- Browser Content -->
-          <div class="relative aspect-[16/12] bg-primary-950">
-            <!-- Screenshot Background - swaps based on theme -->
+          <div class="relative aspect-[16/12] bg-primary-950 hero-split-container">
+            <!-- Dark theme base layer -->
             <img
-              x-show="$store.theme.isDark"
               src="/assets/hero-dark.png"
-              alt="Flakes browser showing a webpage"
+              alt="Flakes browser in dark mode"
               class="absolute inset-0 w-full h-full object-cover object-top"
             />
-            <img
-              x-show="!$store.theme.isDark"
-              src="/assets/hero-light.png"
-              alt="Flakes browser showing a webpage"
-              class="absolute inset-0 w-full h-full object-cover object-top"
-            />
-
-            <!-- Command Palette Overlay -->
+            <!-- Light theme with animated diagonal clip -->
             <div
-              x-show="showPalette"
-              x-transition:enter="transition ease-out duration-200"
-              x-transition:enter-start="opacity-0"
-              x-transition:enter-end="opacity-100"
-              x-transition:leave="transition ease-in duration-150"
-              x-transition:leave-start="opacity-100"
-              x-transition:leave-end="opacity-0"
-              class="absolute inset-0 bg-black/60 backdrop-blur-sm flex items-center justify-center"
-              @click.self="showPalette = false"
+              x-ref="mask"
+              class="absolute inset-0 hero-split-mask"
+              :class="{
+                'hero-split-auto': themeMode === 'auto',
+                'hero-split-paused': isHovering && themeMode === 'auto'
+              }"
             >
-              <div
-                x-show="showPalette"
-                x-transition:enter="transition ease-out duration-200"
-                x-transition:enter-start="opacity-0 scale-95 -translate-y-4"
-                x-transition:enter-end="opacity-100 scale-100 translate-y-0"
-                x-transition:leave="transition ease-in duration-150"
-                x-transition:leave-start="opacity-100 scale-100 translate-y-0"
-                x-transition:leave-end="opacity-0 scale-95 -translate-y-4"
-                class="w-full max-w-xl mx-4 bg-primary-100 dark:bg-primary-800/95 rounded-xl shadow-2xl overflow-hidden"
-              >
-                <!-- Header with Question -->
-                <div class="relative px-5 pt-4 pb-2">
-                  <p class="text-primary-900 dark:text-primary-100 text-lg font-medium pr-8">what's your favorite browser?</p>
-                  <!-- Close Button -->
-                  <button
-                    @click="showPalette = false"
-                    class="absolute top-3 right-3 w-7 h-7 flex items-center justify-center rounded-full bg-primary-200 dark:bg-primary-700/50 hover:bg-primary-300 dark:hover:bg-primary-600 text-primary-500 dark:text-primary-400 hover:text-primary-700 dark:hover:text-primary-200 transition"
-                  >
-                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
-                    </svg>
-                  </button>
-                </div>
-
-                <!-- Hint -->
-                <div class="px-5 pb-3 flex items-center gap-2 text-sm text-primary-500 dark:text-primary-400">
-                  <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
-                  </svg>
-                  <span>Enter to ask AI</span>
-                  <span class="text-primary-400 dark:text-primary-500">•</span>
-                  <span>Tab for Search</span>
-                </div>
-
-                <!-- AI Response -->
-                <div class="bg-primary-200/50 dark:bg-primary-700/50 px-5 pt-4 pb-32 min-h-[280px]">
-                  <p class="text-primary-500 dark:text-primary-400 text-xs font-medium mb-2">Claude 3.5 Sonnet</p>
-                  <p class="text-primary-800 dark:text-primary-100 text-sm leading-relaxed">
-                    Based on your browsing history, you seem to value privacy and keyboard efficiency. I'd recommend <span class="text-primary-600 dark:text-primary-300 font-medium">Flakes</span>—it's a keyboard-first browser with vim navigation, built-in ad blocking, and zero tracking. Perfect for focused browsing.
-                  </p>
-                </div>
-              </div>
+              <img
+                src="/assets/hero-light.png"
+                alt="Flakes browser in light mode"
+                class="w-full h-full object-cover object-top"
+              />
             </div>
 
-            <!-- Keyboard Hint -->
+            <!-- Flakes Logo Button - follows the split line -->
             <button
-              x-show="!showPalette"
-              @click="showPalette = true"
-              class="absolute bottom-4 right-4 flex items-center gap-2 px-3 py-2 bg-primary-800/90 hover:bg-primary-700 rounded-lg text-primary-300 text-sm transition cursor-pointer"
+              x-ref="logo"
+              @click="toggleTheme()"
+              @mouseenter="startHover()"
+              @mouseleave="endHover()"
+              @touchstart.passive="startHover()"
+              @touchend.passive="endHover()"
+              class="absolute top-1/2 w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14 lg:w-16 lg:h-16 flex items-center justify-center rounded-full bg-white/95 dark:bg-slate-900/95 shadow-2xl hover:scale-110 cursor-pointer z-10 border-2 border-white/50 backdrop-blur-sm hero-logo-position"
+              :class="{
+                'hero-logo-auto': themeMode === 'auto',
+                'hero-logo-paused': isHovering && themeMode === 'auto'
+              }"
             >
-              <span>Press</span>
-              <kbd class="px-2 py-0.5 bg-primary-700 rounded text-primary-200 font-mono">⌘K</kbd>
-              <span>to open Drift</span>
+              <img
+                src="/assets/logo.png"
+                alt="Flakes logo - click to toggle theme"
+                class="w-6 h-6 sm:w-8 sm:h-8 md:w-9 md:h-9 lg:w-10 lg:h-10 object-contain"
+                :class="{
+                  'logo-spinning': isSpinning,
+                  'logo-spin-down': isSpinningDown
+                }"
+              />
             </button>
           </div>
         </div>
@@ -139,26 +107,227 @@
     animation: glow 4s ease-in-out infinite;
   }
 
+  /* Diagonal split animation */
+  @keyframes diagonal-sweep {
+    0%, 100% {
+      clip-path: polygon(0 0, 42% 0, 38% 100%, 0 100%);
+    }
+    50% {
+      clip-path: polygon(0 0, 62% 0, 58% 100%, 0 100%);
+    }
+  }
+
+  .hero-split-mask {
+    clip-path: polygon(0 0, 50% 0, 50% 100%, 0 100%);
+  }
+
+  /* Auto mode - animated */
+  .hero-split-mask.hero-split-auto {
+    animation: diagonal-sweep 8s ease-in-out infinite;
+  }
+
+  .hero-split-mask.hero-split-paused {
+    animation-play-state: paused;
+  }
+
+  /* Logo position - base styles */
+  .hero-logo-position {
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  /* Logo follows split in auto mode */
+  @keyframes logo-sweep {
+    0%, 100% {
+      left: 40%;
+    }
+    50% {
+      left: 60%;
+    }
+  }
+
+  .hero-logo-position.hero-logo-auto {
+    animation: logo-sweep 8s ease-in-out infinite, float 3s ease-in-out infinite;
+  }
+
+  .hero-logo-position.hero-logo-paused {
+    animation-play-state: paused;
+  }
+
+  /* Logo floats gently (when not in auto mode) */
+  .hero-logo-position:not(.hero-logo-auto) {
+    animation: float 3s ease-in-out infinite;
+  }
+
+  @keyframes float {
+    0%, 100% {
+      transform: translate(-50%, -50%);
+    }
+    50% {
+      transform: translate(-50%, calc(-50% - 8px));
+    }
+  }
+
+  /* Logo spins while hovering */
+  .logo-spinning {
+    animation: spin 0.5s linear infinite;
+  }
+
+  /* Logo slows down on mouse out */
+  .logo-spin-down {
+    animation: spin-down 1.5s cubic-bezier(0.2, 0, 0.2, 1) forwards;
+  }
+
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  @keyframes spin-down {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(720deg);
+    }
+  }
+
+  /* Logo spin animation */
+  @keyframes spin-once {
+    0% {
+      transform: translate(-50%, -50%) rotate(0deg);
+    }
+    100% {
+      transform: translate(-50%, -50%) rotate(360deg);
+    }
+  }
+
+  .logo-spin {
+    animation: spin-once 0.6s cubic-bezier(0.4, 0, 0.2, 1) !important;
+  }
+
 </style>
 
 <script>
   document.addEventListener('alpine:init', () => {
     Alpine.data('browserDemo', () => ({
-      showPalette: false,
-      handleKeydown(event) {
-        if ((event.metaKey || event.ctrlKey) && event.key === 'k') {
-          event.preventDefault();
-          this.showPalette = !this.showPalette;
-          if (this.showPalette) {
-            this.$nextTick(() => {
-              this.$refs.searchInput?.focus();
-            });
-          }
+      themeMode: 'auto', // 'auto', 'light', 'dark'
+      isSpinning: false,
+      isSpinningDown: false,
+      isHovering: false,
+      autoReturnTimer: null,
+      spinDownTimer: null,
+
+      startHover() {
+        this.isHovering = true;
+        this.isSpinning = true;
+        this.isSpinningDown = false;
+        if (this.spinDownTimer) clearTimeout(this.spinDownTimer);
+      },
+
+      endHover() {
+        this.isHovering = false;
+        this.isSpinning = false;
+        this.isSpinningDown = true;
+        this.spinDownTimer = setTimeout(() => {
+          this.isSpinningDown = false;
+        }, 1500);
+      },
+
+      startAutoReturn() {
+        // Clear any existing timer
+        if (this.autoReturnTimer) clearTimeout(this.autoReturnTimer);
+
+        // After 5 seconds, return to center
+        this.autoReturnTimer = setTimeout(() => {
+          this.returnToAuto();
+        }, 5000);
+      },
+
+      returnToAuto() {
+        const mask = this.$refs.mask;
+        const logo = this.$refs.logo;
+
+        // Animate back to animation start position (40%)
+        mask.style.transition = 'clip-path 1s ease-out';
+        mask.style.clipPath = 'polygon(0 0, 42% 0, 38% 100%, 0 100%)';
+
+        logo.style.transition = 'left 1s ease-out';
+        logo.style.left = '40%';
+
+        // After transition, restore auto animation
+        setTimeout(() => {
+          mask.style.animation = '';
+          mask.style.transition = '';
+          mask.style.clipPath = '';
+          logo.style.animation = '';
+          logo.style.transition = '';
+          logo.style.left = '';
+          this.themeMode = 'auto';
+        }, 1000);
+      },
+
+      toggleTheme() {
+        // Clear any pending auto-return
+        if (this.autoReturnTimer) clearTimeout(this.autoReturnTimer);
+        const mask = this.$refs.mask;
+        const logo = this.$refs.logo;
+
+        if (this.themeMode === 'auto') {
+          // Get current animated position
+          const currentClip = getComputedStyle(mask).clipPath;
+          const currentLeft = getComputedStyle(logo).left;
+
+          // Freeze at current position (no transition)
+          mask.style.transition = 'none';
+          mask.style.animation = 'none';
+          mask.style.clipPath = currentClip;
+
+          logo.style.transition = 'none';
+          logo.style.animation = 'none';
+          logo.style.left = currentLeft;
+
+          // Force reflow
+          mask.offsetHeight;
+
+          // Now animate to right
+          mask.style.transition = 'clip-path 1s ease-out';
+          mask.style.clipPath = 'polygon(0 0, 104% 0, 100% 100%, 0 100%)';
+
+          logo.style.transition = 'left 1s ease-out';
+          logo.style.left = '100%';
+
+          this.themeMode = 'light';
+          this.startAutoReturn();
+
+        } else if (this.themeMode === 'light') {
+          // Move to left
+          mask.style.transition = 'clip-path 1s ease-out';
+          mask.style.clipPath = 'polygon(0 0, 0 0, 0 100%, 0 100%)';
+
+          logo.style.transition = 'left 1s ease-out';
+          logo.style.left = '0%';
+
+          this.themeMode = 'dark';
+          this.startAutoReturn();
+
+        } else {
+          // Move back to right
+          mask.style.transition = 'clip-path 1s ease-out';
+          mask.style.clipPath = 'polygon(0 0, 104% 0, 100% 100%, 0 100%)';
+
+          logo.style.transition = 'left 1s ease-out';
+          logo.style.left = '100%';
+
+          this.themeMode = 'light';
+          this.startAutoReturn();
         }
-        if (event.key === 'Escape' && this.showPalette) {
-          this.showPalette = false;
-        }
-      }
+      },
+
     }));
   });
 </script>

@@ -3,17 +3,19 @@ import About from '../components/home/About.astro';
 import Cta from '../components/home/Cta.astro';
 import Expertise from '../components/home/Expertise.astro';
 import Hero from '../components/home/Hero.astro';
-import Services from '../components/home/Services.astro';
+import Pillars from '../components/home/Pillars.astro';
+import Testimonials from '../components/home/Testimonials.astro';
 import Layout from '../layouts/Layout.astro';
 ---
 
 <Layout
-  description="Flakes is an AI-native, keyboard-first browser for macOS. Designed for thinking, not scrolling."
-  title="Flakes Browser · Think, Don't Scroll"
+  description="A keyboard-first, AI-powered browser for macOS. Built for productivity users who value focus over friction."
+  title="Flakes · The Browser for Getting Things Done"
 >
   <Hero />
-  <Services />
+  <Pillars />
   <Expertise />
+  <Testimonials />
   <About />
   <Cta />
 </Layout>
