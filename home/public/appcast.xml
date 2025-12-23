@@ -6,6 +6,23 @@
     <description>Flakes Browser automatic updates</description>
     <language>en</language>
     <item>
+      <title>Version 0.9.0</title>
+      <pubDate>Tue, 23 Dec 2025 00:46:43 -0800</pubDate>
+      <sparkle:version>36</sparkle:version>
+      <sparkle:shortVersionString>0.9.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>What's New in v0.9.0</h2>
+        <ul><li>Split View - display two pages side by side (⌘|)</li><li>Floating AI Chat panel (⌘⇧A)</li><li>Subscription Pro/Premium plans with earlybird pricing</li><li>Quick Profile Switcher popup (⌘⇧P)</li><li>Faster profile switching without reload</li><li>Fix tab restore and shows favicons and titles instantly</li></ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/chagel/flakes/releases/download/v0.9.0/Flakes-v0.9.0-macOS.zip"
+        length="7897204"
+        type="application/octet-stream"
+        sparkle:edSignature="O/CYs+0WQmClPsen5rdaD/giCToG3P06nu8m/ewplkETbjTZu54YafeFXRr7TadhwHdWkqQKsRGPzXdvzYE0Cg=="
+      />
+    </item>
+    <item>
       <title>Version 0.8.5</title>
       <pubDate>Sat, 20 Dec 2025 00:58:45 -0800</pubDate>
       <sparkle:version>35</sparkle:version>
