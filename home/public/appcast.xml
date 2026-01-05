@@ -6,6 +6,23 @@
     <description>Flakes Browser automatic updates</description>
     <language>en</language>
     <item>
+      <title>Version 1.0.1</title>
+      <pubDate>Mon, 05 Jan 2026 17:38:02 +0800</pubDate>
+      <sparkle:version>38</sparkle:version>
+      <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>What's New in v1.0.1</h2>
+        <ul><li>CMD+W progressively closes panel first, then tab</li><li>ESC dismisses Find in Page and restores vim navigation</li><li>Fix crash when closing popup windows</li><li>Disable holiday snow effect (re-enable next season)</li></ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/chagel/flakes/releases/download/v1.0.1/Flakes-v1.0.1-macOS.zip"
+        length="7980464"
+        type="application/octet-stream"
+        sparkle:edSignature="cs1ka/CkenO4IHQLMl8q8oHYpMCzinZpNvpNIzwqlRuB7iGq+OAF+pnm6kf0vu+gVVFUBtQz0a5aXi2PbVOHCQ=="
+      />
+    </item>
+    <item>
       <title>Version 1.0.0</title>
       <pubDate>Wed, 24 Dec 2025 18:02:47 -0800</pubDate>
       <sparkle:version>37</sparkle:version>
