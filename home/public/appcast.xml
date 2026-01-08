@@ -6,6 +6,23 @@
     <description>Flakes Browser automatic updates</description>
     <language>en</language>
     <item>
+      <title>Version 1.0.2</title>
+      <pubDate>Thu, 08 Jan 2026 17:02:31 +0700</pubDate>
+      <sparkle:version>39</sparkle:version>
+      <sparkle:shortVersionString>1.0.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>What's New in v1.0.2</h2>
+        <ul><li>Notification permission persists across app restarts</li><li>Recognize localhost and 127.0.0.1 as URLs without scheme</li><li>Prevent toolbar layout shift when Drift overlay shows</li><li>Simplified About window and Settings design</li></ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/chagel/flakes/releases/download/v1.0.2/Flakes-v1.0.2-macOS.zip"
+        length="7967034"
+        type="application/octet-stream"
+        sparkle:edSignature="jRL5xhniuwsqH8YFBwyLmcWK7Tqx/IrfdRMHMO6Dlu1Na0gFhGI5+vu5nKfJTpDFyNz/oCYgKxwd58YeX+6hBg=="
+      />
+    </item>
+    <item>
       <title>Version 1.0.1</title>
       <pubDate>Mon, 05 Jan 2026 17:38:02 +0800</pubDate>
       <sparkle:version>38</sparkle:version>
