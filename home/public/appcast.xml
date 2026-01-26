@@ -6,6 +6,23 @@
     <description>Flakes Browser automatic updates</description>
     <language>en</language>
     <item>
+      <title>Version 1.0.3</title>
+      <pubDate>Sun, 25 Jan 2026 16:46:46 -0800</pubDate>
+      <sparkle:version>40</sparkle:version>
+      <sparkle:shortVersionString>1.0.3</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>What's New in v1.0.3</h2>
+        <ul><li>7-day Pro trial for new users</li><li>Fix crash when switching browser profiles</li><li>Fix session persistence when exit</li></ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/chagel/flakes/releases/download/v1.0.3/Flakes-v1.0.3-macOS.zip"
+        length="7945354"
+        type="application/octet-stream"
+        sparkle:edSignature="FhinvUc1xB/hbgThBzgo8DdQ+oj56+Hx0tqt1meiP136r1n9DEJgE++wlP+GSEt6rCHy4aiudeom21Uqh3JbCg=="
+      />
+    </item>
+    <item>
       <title>Version 1.0.2</title>
       <pubDate>Thu, 08 Jan 2026 17:02:31 +0700</pubDate>
       <sparkle:version>39</sparkle:version>
