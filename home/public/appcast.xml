@@ -6,6 +6,23 @@
     <description>Flakes Browser automatic updates</description>
     <language>en</language>
     <item>
+      <title>Version 1.1.0</title>
+      <pubDate>Sat, 14 Feb 2026 17:19:52 -0800</pubDate>
+      <sparkle:version>41</sparkle:version>
+      <sparkle:shortVersionString>1.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>What's New in v1.1.0</h2>
+        <ul><li>Native MCP server for LLM browser automation</li><li>Interactive JavaScript console in DevTools</li><li>Enhanced keybinding system to allow more customization</li><li>Add Shift+F link hints to open links in new tab</li><li>Install Flakes as system command for terminal use</li><li>Fix universal binary (arm64 + x86_64) for Intel Mac support</li><li>Fix ESC exits fullscreen video streaming</li></ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/chagel/flakes/releases/download/v1.1.0/Flakes-v1.1.0-macOS.zip"
+        length="15159631"
+        type="application/octet-stream"
+        sparkle:edSignature="en3r9ToyMx62BtAZrBbDR4JW7Rwv9qFdfNGo7FP5WEcNKXoJkSIGQqv8dugR37YxGLbYlYRayCbkIiX4pmUsCQ=="
+      />
+    </item>
+    <item>
       <title>Version 1.0.3</title>
       <pubDate>Sun, 25 Jan 2026 16:46:46 -0800</pubDate>
       <sparkle:version>40</sparkle:version>
