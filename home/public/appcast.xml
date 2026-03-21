@@ -6,6 +6,23 @@
     <description>Flakes Browser automatic updates</description>
     <language>en</language>
     <item>
+      <title>Version 1.2.1</title>
+      <pubDate>Sat, 21 Mar 2026 00:07:21 -0700</pubDate>
+      <sparkle:version>43</sparkle:version>
+      <sparkle:shortVersionString>1.2.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>What's New in v1.2.1</h2>
+        <ul><li>AI features now free for all signed-in users with your own API keys</li><li>Flakes AI (built-in) remains exclusive to Pro and Premium subscribers</li></ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/chagel/flakes/releases/download/v1.2.1/Flakes-v1.2.1-macOS.zip"
+        length="16122732"
+        type="application/octet-stream"
+        sparkle:edSignature="nTyFGWidptziLSUdxkQM2kjERQHjMximociCgeCiQXHLTqeCneDoJaEKWtH4zwcpOjYZwCxoqkqpj0r+QOcmBQ=="
+      />
+    </item>
+    <item>
       <title>Version 1.2.0</title>
       <pubDate>Fri, 20 Mar 2026 22:48:21 -0700</pubDate>
       <sparkle:version>42</sparkle:version>
