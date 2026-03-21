@@ -7,7 +7,7 @@
     <language>en</language>
     <item>
       <title>Version 1.2.0</title>
-      <pubDate>Fri, 20 Mar 2026 22:32:45 -0700</pubDate>
+      <pubDate>Fri, 20 Mar 2026 22:48:21 -0700</pubDate>
       <sparkle:version>42</sparkle:version>
       <sparkle:shortVersionString>1.2.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
@@ -17,9 +17,9 @@
       ]]></description>
       <enclosure
         url="https://github.com/chagel/flakes/releases/download/v1.2.0/Flakes-v1.2.0-macOS.zip"
-        length="16102097"
+        length="16104709"
         type="application/octet-stream"
-        sparkle:edSignature="1BKi2hgFru7S9Hfbz0NblJgUVNQoodraawapnorX9bQ7CqufCRPoVDT0wUBurh2rIvgs5R0Mx8MXxv1vuZy7Bg=="
+        sparkle:edSignature="1ZgiPQqFwWJjcxC5s9BnPSWkvf5S/1wzn8P4DsMaXvJgZRTHvXdX3fFYXv1dNQQLmtMhA9YcaJous3f+TKP7BA=="
       />
     </item>
     <item>
